@@ -78,12 +78,12 @@
   .copyrights div {
     margin-bottom: 10px;
   }
-  @media only screen and (max-width: 755px) {
+  @media only screen and (max-width: 900px) {
     .direction-1 {
       flex-direction: column;
     }
   }
-  @media only screen and (min-width: 755px) {
+  @media only screen and (min-width: 900px) {
     .sitemap {
       width: 75%;
     }
