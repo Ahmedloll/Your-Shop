@@ -71,10 +71,6 @@
     color: white;
   }
 
-  ul {
-    list-style: none;
-    padding: 0;
-  }
   .sitemap ul {
     padding-right: 40px;
   }
