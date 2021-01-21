@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <footer>
     <div class="flex sp-between direction-1">
       <div class="sitemap">
         <h3>Sitemap</h3>
@@ -55,7 +55,7 @@
       <div>&copy; 2021 Your Shop &reg; All Rights reserved.</div>
       <div>Developed By Ahmed Alaa</div>
     </div>
-  </div>
+  </footer>
 </template>
 
 <script>
@@ -65,7 +65,7 @@
 </script>
 
 <style scoped>
-  .footer {
+  footer {
     padding: 15px 16.9270833% 15px;
     background-color: #3c1b44;
     color: white;
