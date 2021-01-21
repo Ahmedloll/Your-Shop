@@ -38,10 +38,16 @@
           Sat: 9AM - 6PM<br />
           Sun: 9AM - 6PM
         </div>
-        <ul>
-          <li>facebook</li>
-          <li>twitter</li>
-          <li>instagram</li>
+        <ul class="flex">
+          <li>
+            <i class="fab fa-facebook-f"></i>
+          </li>
+          <li>
+            <i class="fab fa-twitter"></i>
+          </li>
+          <li>
+            <i class="fab fa-instagram"></i>
+          </li>
         </ul>
       </div>
     </div>
@@ -71,6 +77,9 @@
   }
   .sitemap ul {
     padding-right: 40px;
+  }
+  i {
+    margin-right: 20px;
   }
   .copyrights {
     margin-top: 20px;
