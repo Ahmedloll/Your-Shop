@@ -1,36 +1,38 @@
 <template>
-  <header class="flex sp-between">
-    <h1><i class="fas fa-store-alt"></i> Your Shop</h1>
-    <div>
-      <ul class="flex menu">
-        <li>About Us</li>
-        <li>Categories</li>
-        <li>Culture</li>
-        <li>Latest News</li>
-        <li>Careers</li>
-        <li>Contact us</li>
-      </ul>
-    </div>
-    <div>
-      <ul class="flex">
-        <li><i class="fas fa-user"></i><span> Sign in</span></li>
-        <li><i class="far fa-heart"></i><span> Wish lists</span></li>
-        <li><i class="fas fa-shopping-cart"></i><span> Cart</span></li>
-        <li class="menu-bar pointer dropdown">
-          <i class="fas fa-bars"></i>
-          <div class=" dropdown-content">
-            <ul>
-              <li>About Us</li>
-              <li>Categories</li>
-              <li>Culture</li>
-              <li>Latest News</li>
-              <li>Careers</li>
-              <li>Contact us</li>
-            </ul>
-          </div>
-        </li>
-      </ul>
-    </div>
+  <header>
+    <nav class="flex sp-between">
+      <h1><i class="fas fa-store-alt"></i> Your Shop</h1>
+      <div>
+        <ul class="flex menu">
+          <li>About Us</li>
+          <li>Categories</li>
+          <li>Culture</li>
+          <li>Latest News</li>
+          <li>Careers</li>
+          <li>Contact us</li>
+        </ul>
+      </div>
+      <div>
+        <ul class="flex">
+          <li><i class="fas fa-user"></i><span> Sign in</span></li>
+          <li><i class="far fa-heart"></i><span> Wish lists</span></li>
+          <li><i class="fas fa-shopping-cart"></i><span> Cart</span></li>
+          <li class="menu-bar pointer dropdown">
+            <i class="fas fa-bars"></i>
+            <div class=" dropdown-content">
+              <ul>
+                <li>About Us</li>
+                <li>Categories</li>
+                <li>Culture</li>
+                <li>Latest News</li>
+                <li>Careers</li>
+                <li>Contact us</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 </template>
 
