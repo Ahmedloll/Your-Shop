@@ -76,6 +76,7 @@
   }
   .dropdown:hover .dropdown-content {
     display: block;
+    z-index: 9;
   }
 
   @media only screen and (min-width: 1350px) {

@@ -1,0 +1,39 @@
+<template>
+  <section>
+    <img v-bind:src="images[image]" alt="" />
+    <div @click="slideright"><i class="fas fa-arrow-right"></i></div>
+    <div><i class="fas fa-arrow-left"></i></div>
+  </section>
+</template>
+
+<script>
+  export default {
+    name: "PhotoSlider",
+    data() {
+      return {
+        image: 0,
+        images: [
+          "https://www.technocrazed.com/wp-content/uploads/2015/12/Kitchen-wallpaper-40.jpg",
+          "https://wonderfulengineering.com/wp-content/uploads/2014/04/kitchen-wallpaper-3.jpg",
+          "https://c0.wallpaperflare.com/preview/575/367/712/kitchen-design-modern-contemporary.jpg",
+        ],
+      };
+    },
+    methods: {
+      slideright() {
+        if (this.image == 2) {
+          this.image = 0;
+        } else {
+          this.image++;
+        }
+      },
+    },
+  };
+</script>
+
+<style scoped>
+  img {
+    width: 100%;
+    max-height: 60vh;
+  }
+</style>
